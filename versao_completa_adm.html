@@ -60,6 +60,9 @@
     .badge-A3 { background-color: #32CD32; }
     .badge-A4 { background-color: #7CFC00; }
     .badge-B3 { background-color: #FF6347; }
+    .badge-C { background-color: #eeff00; }
+    .badge-- { background-color: #0004ff; }
+
     .card-title {
       min-height: 3.5rem;
     }
@@ -365,13 +368,15 @@
             <option value="">Todos os Qualis</option>
             <option value="A1">A1</option>
             <option value="A1 (internacional)">A1 (internacional)</option>
-            <option value="A2 (internacional)">A2 (internacional)</option>
             <option value="A2">A2</option>
+            <option value="A2 (internacional)">A2 (internacional)</option>
             <option value="A3">A3</option>
             <option value="A4">A4</option>
             <option value="B1">B1</option>
             <option value="B2">B2</option>
             <option value="B3">B3</option>
+            <option value="C">C</option>
+            <option value="-">-</option>
           </select>
         </div>
         <div class="col-md-4">
@@ -437,7 +442,7 @@
         titulo: "Revista Brasileira de Ensino de Ciências e Matemática (RBECM)",
         link: "https://seer.upf.br/index.php/rbecm",
         area: "ciencias",
-        qualis: "A2",
+        qualis: "-",
         descricao: "Publica pesquisas sobre ensino e aprendizagem em Ciências e Matemática, com foco na formação de professores e práticas pedagógicas inovadoras."
       },
       {
@@ -453,7 +458,7 @@
         titulo: "Revista Brasileira de Educação em Ciências e Educação Matemática (REBECEM)",
         link: "https://e-revista.unioeste.br/index.php/rebecem",
         area: "ciencias",
-        qualis: "A4",
+        qualis: "B2",
         descricao: "Foca em pesquisas sobre educação em Ciências e Matemática, abordando temas como currículo, metodologias de ensino e formação docente."
       },
       {
@@ -469,7 +474,7 @@
         titulo: "Amazônia: Revista de Educação em Ciências e Matemáticas",
         link: "https://periodicos.ufpa.br/index.php/revistaamazonia",
         area: "ciencias",
-        qualis: "B2",
+        qualis: "A2",
         descricao: "Destinada à publicação de pesquisas sobre formação de professores e processos de ensino e aprendizagem nas áreas de Educação em Ciências e Matemática."
       },
       {
@@ -477,12 +482,12 @@
         titulo: "REAMEC - Rede Amazônica de Educação em Ciências e Matemática",
         link: "https://periodicoscientificos.ufmt.br/ojs/index.php/reamec",
         area: "ciencias",
-        qualis: "A2",
+        qualis: "A4",
         descricao: "Publica artigos relacionados às diversas temáticas inerentes à área de Ensino de Ciências e Matemática, abrangendo também Pedagogia."
       },
       {
 	id: 7,
-        titulo: "Revista de Educação, Ciências e Matemática",
+        titulo: "Revista de Educação, Ciências e Matemática (RECM)",
         link: "https://publicacoes.unigranrio.edu.br/recm/index",
         area: "ciencias",
         qualis: "A2",
@@ -493,7 +498,7 @@
         titulo: "Revista de Educação Matemática (REMat)",
         link: "https://www.revistasbemsp.com.br/",
         area: "matematica",
-        qualis: "B1",
+        qualis: "A3",
         descricao: "Publica pesquisas e experiências em Educação Matemática, favorecendo a reflexão e o debate sobre a prática pedagógica dos professores que ensinam matemática."
       },
       {
@@ -501,7 +506,7 @@
         titulo: "Revista do Professor de Matemática (RPM)",
         link: "https://rpm.org.br/",
         area: "matematica",
-        qualis: "B2",
+        qualis: "-",
         descricao: "Foca em artigos de matemática voltados à educação, acessíveis a professores de ensino médio e alunos de cursos de Licenciatura em Matemática."
       },
       {
@@ -509,7 +514,7 @@
         titulo: "Revista Sergipana de Matemática e Educação Matemática (REViSeM)",
         link: "https://periodicos.ufs.br/ReviSe",
         area: "matematica",
-        qualis: "B2",
+        qualis: "-",
         descricao: "Publica artigos científicos na área de Matemática e Educação Matemática, contribuindo para a formação de professores e pesquisadores."
       },
       {
@@ -530,11 +535,11 @@
       },
       {
 	id: 13,
-        titulo: "Ensino de Ciências e Matemática",
-        link: "https://ojs.ifes.edu.br/index.php/dect/catalog/category/ensino_de_ciencias_e_matematica",
-        area: "ciencias",
-        qualis: "B1",
-        descricao: "Reúne estudos que tratam das políticas educacionais, do currículo, das práticas pedagógicas e das metodologias de ensino e aprendizagem no contexto do Ensino de Ciências e Matemática."
+        titulo: "Revista Brasileira de Iniciação Científica (RBIC)",
+        link: "https://periodicoscientificos.itp.ifsp.edu.br/index.php/rbic/about",
+        area: "matematica",
+        qualis: "A4",
+        descricao: "Reúne estudos que tratam de Ensino de Ciências e Matemática."
       },
       {
 	id: 14,
@@ -573,7 +578,7 @@
         titulo: "Revista Brasileira de História da Matemática (RBHM)",
         link: "https://www.rbhm.org.br/",
         area: "historia",
-        qualis: "A3",
+        qualis: "-",
         descricao: "História da Matemática; artigos acadêmicos originais."
       },
       {
@@ -587,7 +592,7 @@
       {
 	id: 20,
         titulo: "Bolema: Boletim de Educação Matemática",
-        link: "https://revistas.rc.unesp.br/index.php/bolema",
+        link: "https://www.scielo.br/journal/bolema/about/#about",
         area: "matematica",
         qualis: "A1",
         descricao: "Publica artigos inéditos na área de Educação Matemática, contribuindo para o desenvolvimento da pesquisa e prática educativa."
@@ -613,7 +618,7 @@
         titulo: "Educação Matemática em Revista (SBEM)",
         link: "https://revista.sbem.com.br/",
         area: "matematica",
-        qualis: "B1",
+        qualis: "A2",
         descricao: "Publica artigos científicos na área de Educação Matemática, promovendo o debate acadêmico e a divulgação de pesquisas."
       },
       {
@@ -629,7 +634,7 @@
         titulo: "Revista de Ensino de Ciências e Matemática (REnCiMa)",
         link: "https://www.rencima.ufms.br/",
         area: "ciencias",
-        qualis: "A2",
+        qualis: "-",
         descricao: "Ensino de Ciências e Matemática; artigos científicos e relatos de experiência."
       },
       {
@@ -653,7 +658,7 @@
         titulo: "REMATEC – Revista de Matemática, Ensino e Cultura",
         link: "https://periodicos.ufrn.br/rematec",
         area: "matematica",
-        qualis: "B2",
+        qualis: "A4",
         descricao: "Matemática, Ensino e Cultura; pesquisas e práticas educativas."
       },
       {
@@ -686,7 +691,7 @@
       titulo: "Revista Internacional de Pesquisa em Educação Matemática (RIPEM)",
       link: "https://periodicos.ufrn.br/ripem",
       area: "matematica",
-      qualis: "A2",
+      qualis: "-",
       descricao: "Publica pesquisas internacionais em Educação Matemática, promovendo o diálogo entre diferentes abordagens teóricas."
     },
     {
@@ -702,15 +707,15 @@
       titulo: "Jornal Internacional de Estudos em Educação Matemática",
       link: "https://www.publicacoes.unifal-mg.edu.br/revistas/index.php/jieem",
       area: "matematica",
-      qualis: "B1",
+      qualis: "-",
       descricao: "Publica artigos sobre Educação Matemática com perspectiva internacional, incluindo estudos comparativos entre países."
     },
     {
       id: 35,
-      titulo: "Revista de Educação em Ciência e Tecnologia (RECT)",
+      titulo: "Revista de Educação em Ciência e Tecnologia (RECeT)",
       link: "https://periodicos.utfpr.edu.br/rect",
       area: "ciencias",
-      qualis: "B1",
+      qualis: "B3",
       descricao: "Divulga pesquisas sobre ensino de Ciências e Tecnologia, com ênfase em abordagens interdisciplinares."
     },
     {
@@ -718,7 +723,7 @@
       titulo: "Revista Paranaense de Educação Matemática (RPEM)",
       link: "https://periodicos.unespar.edu.br/index.php/rpem",
       area: "matematica",
-      qualis: "B2",
+      qualis: "A3",
       descricao: "Publica pesquisas em Educação Matemática com foco regional e nacional, abordando diferentes níveis de ensino."
     },
 
@@ -727,7 +732,7 @@
       titulo: "Revista Brasileira de História da Ciência",
       link: "https://www.sbhc.org.br/revista",
       area: "historia",
-      qualis: "A3",
+      qualis: "A4",
       descricao: "Publica pesquisas sobre história das ciências, incluindo aspectos relacionados ao ensino e divulgação científica."
     },
 
@@ -768,7 +773,7 @@
       titulo: "Revista de Educação Matemática da UFOP",
       link: "https://www.periodicos.ufop.br/ppem",
       area: "matematica",
-      qualis: "B2",
+      qualis: "C",
       descricao: "Periódico dedicado à Educação Matemática, com artigos sobre formação de professores e práticas pedagógicas."
     },
     {
@@ -776,7 +781,7 @@
       titulo: "Revista Brasileira de Ensino de Física (RBEF)",
       link: "https://www.scielo.br/j/rbef/",
       area: "ciencias",
-      qualis: "A2",
+      qualis: "-",
       descricao: "Publica artigos sobre ensino de Física, incluindo pesquisas em educação científica e formação de professores."
     },
     {
@@ -808,7 +813,7 @@
       titulo: "Revista de Produtos Educacionais e Pesquisas em Ensino (REPPE)",
       link: "https://seer.uenp.edu.br/index.php/reppe",
       area: "educacao",
-      qualis: "B3",
+      qualis: "-",
       descricao: "Publica produtos educacionais e pesquisas sobre ensino, incluindo materiais didáticos para Ciências e Matemática."
     },
       {
@@ -832,7 +837,7 @@
       titulo: "Revista Diálogos em Educação Matemática (REDEMAT)",
       link: "https://cedu.ufal.br/pt-br/pos-graduacao/mestrado-em-ensino-de-ciencias-e-matematica/institucional/revista-dialogos-em-educacao-matematica-redemat",
       area: "educacao, matematica",
-      qualis: "B2",
+      qualis: "-",
       descricao: "Publica artigos, ensaios e relatos de experiências em educação matemática, voltada para a educação básica e superior, com foco em pesquisas e reflexões pedagógicas.",
       },
       {
@@ -941,12 +946,21 @@
   },
   {
   id: 64,
-  titulo: "Educação Matemática em Revista (EMR)",
-  link: "https://www.sbembrasil.org.br/periodicos/index.php/emr/index",
-  area: "matematica, educacao",
-  qualis: "A2",
-  descricao: "Focada em pesquisas de professores de matemática, em artigos completos e seções com temáticas específicas."
+  titulo: "Revista Novas Tecnologias na Educação (RENOTE)",
+  link: "https://seer.ufrgs.br/renote",
+  area: "educação",
+  qualis: "A4",
+  descricao: "Focada em pesquisas sobre ensio de tecnologias educacionais."
+  },
+  {
+  id: 65,
+  titulo: "Revista Brasileira de Ensino de Ciência e Tecnologia (RBECT)",
+  link: "https://periodicos.utfpr.edu.br/rbect",
+  area: "educação",
+  qualis: "-",
+  descricao: "Foco em pesquisas sobre ensino-aprendizagem na educação."
   }
+
 
 
 
